@@ -1,4 +1,4 @@
-from ejer1.entero import Entero
+from entero import Entero
 
 class Main:
     def ejecutar(self):
