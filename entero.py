@@ -31,7 +31,7 @@ class Entero:
         if self.__numero <= 1:
             return False
             
-        # Comprobamos divisibilidad hasta la raíz cuadrada del número
+        # Comprobamos divisibilidad hasta la raíz cuadrada del numero
         for i in range(2, int(self.__numero ** 0.5) + 1):
             if self.__numero % i == 0:
                 return False

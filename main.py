@@ -5,7 +5,6 @@ class Main:
         print("=== PRUEBA DE CLASE ENTERO ===")
         entrada = input("Ingrese un número entero para comenzar: ")
         
-        # Validación básica que no usa try-except
         if entrada.lstrip('-').isdigit():
             numero_inicial = int(entrada)
         else:
